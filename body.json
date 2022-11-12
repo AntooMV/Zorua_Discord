@@ -1,0 +1,18 @@
+{
+    "embeds": [
+        {
+            "title": "Anto está en Directo",
+            "url": "{{ChannelUrl}}",
+            "description": "Jugando {{Game}}",
+            "content": "@everyone <@&role-id> <@user-id>",
+            "allowed_mentions": {
+                "parse": [
+                    "everyone"
+                ]
+            },
+            "image": { "url": "{{StreamPreview}}" },
+            "footer": { "text": "twitch.tv", "icon_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/114142-19c0993bf69c468f1350fd422bfad6b2-medium_jpg.jpg?buster=1410211530" }
+            
+        }
+    ]
+}
